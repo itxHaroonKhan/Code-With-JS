@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="wrapper">
+        <div id="block1">
+            <h1>Enjoy Nature</h1>
+            <img id="img1" src="image/download.jfif" alt="">
+        </div>
+        <div id="block2">
+            <h1>Love Nature</h1>
+            <img id="img2" src="" alt="">
+        </div>
+    </div>
+    <script>
+         document.getElementById('img1');
+
+        img1.addEventListener("mouseover", function() {
+            this.style.filter = 'grayscale(0%)';
+        });
+
+        img1.addEventListener("mouseout", function() {
+            this.style.filter = 'grayscale(100%)';
+        });
+    </script>
+</body>
+</html>

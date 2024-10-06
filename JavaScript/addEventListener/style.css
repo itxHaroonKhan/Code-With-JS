@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div#wrapper{
+    margin: 25px auto 0px auto;
+    width: 57%;
+
+}
+div#wrapper h1{
+    display: block;
+    background-color: #203d3a;
+    color: #fff;
+    text-align: center;
+    line-height: 67px;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+div#wrapper img {
+    width: 100%;
+    border-radius: 0px 0px 20px 20px;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+/* as kom ko hum css me br kar sak te hai js code hata lo */
+
+/* div#wrapper img:hover{
+    filter: grayscale(0);
+} */
+div#block1, div#block2{
+    width: 100%;
+    float: left;
+    margin-top:25px ;
+
+
+}

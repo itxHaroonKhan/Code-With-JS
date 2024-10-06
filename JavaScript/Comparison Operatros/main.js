@@ -1,0 +1,27 @@
+var x = 5;
+var y = 6;
+console.log(x == y);
+var Y = 5;
+var X = 5;
+console.log(X == Y);
+// let a = 5;
+// let b = "5";
+// console.log(a === b);//Errer Chak JavaScript
+var a = 5;
+var b = 5;
+console.log(a !== b);
+var A = 7;
+var V = 6;
+console.log(A > V);
+var S = 7;
+var H = 10;
+console.log(S < H);
+// let h = 10;
+// let s = 10;
+// console.log(h > s);
+// let h = 10;
+// let s = 15;
+// console.log(h >= s);
+var h = 10;
+var s = 11;
+console.log(h <= s);

@@ -1,0 +1,31 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2em;
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+div#wrapper {
+    margin: 50px auto;
+    width: 80%;
+}
+
+div#button {
+    display: inline-block;
+    line-height: 60px;
+    padding: 0px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    color: white; /* Initial button text color */
+    background-color: rgb(116, 103, 103); /* Set initial button color */
+    transition: background-color 0.3s ease; /* Smooth transition for button color */
+}
+
+body.white {
+    background-color: white;
+    color: black; /* Text color in white background */
+}
+
+body.black {
+    background-color: black;
+    color: white; /* Text color in black background */
+}

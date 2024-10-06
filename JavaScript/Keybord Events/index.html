@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <div id="Form">
+    <form>
+        <h1>KeyBoard Event Color</h1>
+
+        <label for="input1">Onkeydown :</label>
+        <input type="text" id="input1" placeholder="Enter first value" onkeydown="document.getElementById('Form').style.background=this.value">
+
+        <label for="input2">Onkeyup :</label>
+        <input type="text" id="input2" placeholder="Enter second value"  onkeyup="document.getElementById('Form').style.background=this.value">
+
+        <label for="input3">Onkeypress :</label>
+        <input type="text" id="input3" placeholder="Enter third value"  onkeypress="document.getElementById('Form').style.background=this.value">
+
+        <button id="button" type="submit">SUBMIT</button>
+    </form>
+</div>
+</body>
+</html>

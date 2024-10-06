@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('image/download.jfif'); /* Your background image */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin */
+}
+
+#Form {
+    width: 90%; /* Make it responsive */
+    max-width: 400px; /* Maximum width */
+    margin: 20px auto; /* Center horizontally */
+    padding: 20px; /* Inner spacing */
+    border: 1px solid #2b2828; /* Light border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: rgba(211, 211, 211, 0.7); /* Light gray background with transparency */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.9); /* Enhanced shadow */
+}
+
+/* Style for inputs and text areas */
+#Form input,
+#Form textarea {
+    width: 100%; /* Full width */
+    padding: 12px; /* Inner spacing */
+    margin: 10px 0; /* Spacing between elements */
+    border: 1px solid #252323; /* Border */
+    border-radius: 4px; /* Rounded corners */
+    box-sizing: border-box; /* Include padding and border in width */
+    font-size: 14px; /* Font size */
+}
+
+/* Style for the submit button */
+#Form button {
+    width: 100%; /* Full width */
+    padding: 12px; /* Inner spacing */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    background-color: #007BFF; /* Primary color */
+    color: white; /* White text color */
+    cursor: pointer; /* Pointer cursor */
+    font-size: 16px; /* Font size */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+}
+
+#Form button:hover {
+    background-color: #0056b3; /* Darker shade on hover */
+    transform: scale(1.02); /* Slightly enlarge on hover */
+}
+
+/* Optional: Add focus styles */
+#Form input:focus,
+#Form textarea:focus {
+    border-color: #007BFF; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 400px) {
+    #Form {
+        width: 90%; /* Make it responsive */
+        margin-top: 20px; /* Adjust margin for smaller screens */
+    }
+}
