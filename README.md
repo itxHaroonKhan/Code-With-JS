@@ -34,4 +34,5 @@ https://notebooklm.google.com/?_gl=1*l1087t*_ga*MTQ5MzYxNDMyMS4xNzU4MTA1NTM5*_ga
 
 
 ## website make ai
--  [https://mgx.dev/)\
+-  [mgx -- https://mgx.dev/)\
+-  [kimi -- https://www.kimi.com/)\
